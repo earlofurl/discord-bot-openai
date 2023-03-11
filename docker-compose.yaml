@@ -1,0 +1,6 @@
+version: "3"
+services:
+  my-bot:
+    build: .
+    ports:
+      - "3000:3000"
